@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="342.0" prefWidth="494.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jubal.juperirc.SecondaryController">
+<VBox alignment="CENTER" prefHeight="342.0" prefWidth="494.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jubal.juperirc.ConnectionController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -33,7 +33,9 @@
                   <TextField />
                </children>
             </HBox>
-            <Button layoutY="233.0" mnemonicParsing="false" onAction="#OnConnect" text="Connect" />
+            <Button layoutY="253.0" mnemonicParsing="false" onAction="#OnConnect" text="Connect" />
+            <Label layoutY="208.0" text="Server:" />
+            <TextField layoutX="54.0" layoutY="204.0" />
          </children>
       </AnchorPane>
    </children>

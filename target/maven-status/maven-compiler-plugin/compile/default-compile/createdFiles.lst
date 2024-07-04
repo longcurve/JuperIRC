@@ -1,0 +1,5 @@
+com\jubal\juperirc\IRC.class
+module-info.class
+com\jubal\juperirc\App.class
+com\jubal\juperirc\PrimaryController.class
+com\jubal\juperirc\ConnectionController.class
